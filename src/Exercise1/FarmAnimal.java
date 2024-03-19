@@ -1,3 +1,12 @@
+package Exercise1;
+/**Class: FarmAnimal
+ * @author Ronoquade Lawrence
+ * @version 1.0
+ * Course: ITEC 2150 Spring 2024
+ * Written: March 18, 2024
+ *
+ * This class provides the foundation for inherited classes that represent farm animals.
+ */
 abstract class FarmAnimal {
    private String name;
    private String gender;

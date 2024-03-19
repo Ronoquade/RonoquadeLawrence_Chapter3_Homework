@@ -1,3 +1,12 @@
+package Exercise1;
+/**Class: MyFarm
+ * @author Ronoquade Lawrence
+ * @version 1.0
+ * Course: ITEC 2150 Spring 2024
+ * Written: March 18, 2024
+ *
+ * This class tests instances of subclasses from FarmAnimal.
+ */
 public class MyFarm {
     public static void main(String[] args) {
         FarmAnimal donald = new Duck("Donald", "male", 3.2, 5);
@@ -21,7 +30,7 @@ public class MyFarm {
             System.out.println(farmAnimals[i]);
         }
 
-        // Printing out the feeding schedule for each animal
+        // Printing out the feeding schedule for each animal in farmAnimals
         for (int i = 0; i < farmAnimals.length; i++) {
             farmAnimals[i].feedLoadingSchedule();
         }
