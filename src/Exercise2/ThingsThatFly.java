@@ -1,5 +1,5 @@
 package Exercise2;
-/**Class: ClassName
+/**Class: ThingsThatFLy
  * @author Ronoquade Lawrence
  * @version 1.0
  * Course: ITEC 2150 Spring 2024
